@@ -7,12 +7,17 @@ import (
 	"cloud.google.com/go/datastore"
 )
 
+// ToDo: Specify your entity projection here:
+type Entity struct {
+}
+
 func main() {
-	projectID := "dusted-codes"
-	fromNamespace := "prod"
-	fromKind := "ketchup-dotnet"
-	toNamespace := "ketchup"
-	toKind := "dotnet"
+	// ToDo: Fill in the data
+	projectID := ""
+	fromNamespace := ""
+	fromKind := ""
+	toNamespace := ""
+	toKind := ""
 
 	fmt.Printf(
 		"Starting data migration from %s/%s to %s/%s in project %s.",
